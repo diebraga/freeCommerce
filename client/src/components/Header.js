@@ -43,8 +43,6 @@ const Header = ({ isAuthenticated, logout }) => {
         <li className="nav-item">
           <Link className="nav-link" to='/contact'>Contact us</Link >
         </li>
-      </ul>
-      <ul className="navbar-nav">
         { <>{ isAuthenticated ? authLinks : guestLinks }</> }
       </ul>
     </div>

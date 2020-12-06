@@ -18,8 +18,9 @@ class Product(models.Model):
     category = models.CharField(max_length=50, choices=Categories.choices, default=Categories.TSHIRTS)
     image_source = models.CharField(max_length=150, blank=False)
     descrption = models.CharField(max_length=150, blank=False)
+    # Price_id create on stripe dashboard
     price_id = models.CharField(max_length=40)
-    price = models.DecimalField(max_digits=20, decimal_places=20)
+    price = models.DecimalField(max_digits=10, decimal_places=2)
     featured = models.BooleanField(default=False)
     date_created = models.DateTimeField(default=datetime.now, blank=True)
 

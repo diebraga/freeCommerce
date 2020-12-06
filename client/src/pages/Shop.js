@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
-import { Mask, TShirt, Mug, NotBook } from '../components/Products';
+import Products from '../components/Products';
 import { Link } from 'react-router-dom';
 import { AiFillDownCircle } from 'react-icons/ai';
 import { FiCornerDownRight } from 'react-icons/fi';
@@ -33,11 +33,8 @@ const Shop = () => {
         </div>
         <br/>
       </div>
-      <Mask />
-      <TShirt />
-      <Mug />
-      <NotBook />
       </div>
+      <Products />
     </Fade>
     </>
   )
