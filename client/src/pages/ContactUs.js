@@ -36,7 +36,7 @@ const ContactUs = (props) => {
       setLoading(true);
       axios
         .post(
-          `http://127.0.0.1:3000/api/contacts/`,
+          `${process.env.REACT_APP_API_URL}/api/contacts/`,
           { name, email, subject, message },
           config,
         )

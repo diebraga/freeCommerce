@@ -2,7 +2,8 @@
 > freeCommerce is an Open source e-commerce build with Django api, React frontend with using Stripe, 
 any small or big contribution is welcome 💖.
 
-One to two paragraph statement about your product and what it does.
+## Demo
+<a href='https://free-commerce.herokuapp.com/'>https://free-commerce.herokuapp.com/</a>
 
 ## Installation
 
@@ -104,7 +105,11 @@ To access 'Contact us' page you'll need to create an account and authenticate lo
 Stripe shop is running on test mode. to make a test transaction fill '4242 4242 4242 4242'
 with any code and any future date.
 
-<img src="https://github.com/diebraga/news_galway/blob/main/assets/stripe.gif?raw=true" width="220" height="300"/>    
+Use '4000000000003220' to 3D Secure 2 authentication must be completed for a successful payment.
+
+Use '4000000000009995' To fails with a decline code of insufficient_funds.
+
+<img src="https://github.com/diebraga/news_galway/blob/main/assets/stripe.gif?raw=true" width="220" height="320"/>    
 
 
 ## Contributing 💖💖🙏🙏

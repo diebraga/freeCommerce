@@ -40,8 +40,8 @@ const Products = () => {
           quantity: 1,
         }],
         mode: 'payment',
-        successUrl: `http://localhost:3000/success`,
-        cancelUrl: `http://localhost:3000/cancel`,
+        successUrl: `${process.env.REACT_APP_API_URL}/success`,
+        cancelUrl: `${process.env.REACT_APP_API_URL}/cancel`,
         billingAddressCollection: 'required',
         shippingAddressCollection: {
           allowedCountries: ['US', 'CA', 'IE', 'IT', 'FR'],
