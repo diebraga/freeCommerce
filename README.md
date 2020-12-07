@@ -5,6 +5,9 @@ any small or big contribution is welcome 💖.
 ## Demo
 <a href='https://free-commerce.herokuapp.com/'>https://free-commerce.herokuapp.com/</a>
 
+Use `freecommerce111@gmail.com` password `!Aa12345678`.  <br />
+or create your account.
+
 ## Installation
 
 ### Backend
@@ -171,5 +174,7 @@ Done: Your app is running you made it!! 💪🏽💪🏽
 ## License
 
 No license.
+
 Free Open source.
+
 No charge.
