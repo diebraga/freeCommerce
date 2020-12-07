@@ -21,7 +21,7 @@ const Login = ({ login, isAuthenticated }) => {
   };
 
   if (isAuthenticated)
-    return <Redirect to='/blog' />;
+    return <Redirect to='/shop' />;
     
   return (
     <div className='container mt-5 col-sm-6'>

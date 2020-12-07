@@ -10,7 +10,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-build/
+/
 develop-eggs/
 dist/
 downloads/
@@ -28,7 +28,7 @@ wheels/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#  before PyInstaller s the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -45,6 +45,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+
 .hypothesis/
 
 # Translations
@@ -63,9 +64,9 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+docs/_/
 
-# PyBuilder
+# Pyer
 target/
 
 # Jupyter Notebook

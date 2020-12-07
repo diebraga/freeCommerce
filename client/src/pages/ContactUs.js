@@ -9,7 +9,7 @@ import { FiCornerDownRight, FiCornerDownLeft } from 'react-icons/fi';
  *  and send email.
  */
 
-const Contact = (props) => {
+const ContactUs = (props) => {
     const [formData, setFormData] = useState({
       name: '',
       email: '',
@@ -36,7 +36,7 @@ const Contact = (props) => {
       setLoading(true);
       axios
         .post(
-          `http://127.0.0.1:8000/api/contacts/`,
+          `http://127.0.0.1:3000/api/contacts/`,
           { name, email, subject, message },
           config,
         )
@@ -115,4 +115,4 @@ const Contact = (props) => {
   );
 }
 
-export default Contact;
+export default ContactUs;

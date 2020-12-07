@@ -27,7 +27,7 @@ const Activate = (props) => {
     <div className='container mt-5 col-sm-6'>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop: '100px' }}>
         <h1>Verify your Account</h1>
-        <p>Click the button to comfirm Activation</p>
+        <p>Click the button to comfirm activation</p>
         <button 
           onClick={verify_account}
           style={{ marginTop: '20px' }}

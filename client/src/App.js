@@ -9,9 +9,9 @@ import ResetPasswordConfirm from './pages/ResetPasswordConfirm';
 import Shop from './pages/Shop';
 import Cancel from './pages/Cancel';
 import Success from './pages/Success';
-import Contact from './pages/Contact';
-// Place PrivateRoute whenever
-// import PrivateRoute from './components/PrivateRoute';
+import ContactUs from './pages/ContactUs';
+// Place PrivateRoute whenever you want to make a route private.
+import PrivateRoute from './components/PrivateRoute';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 
@@ -31,7 +31,7 @@ const App = () => (
           <Route exact path='/cancel' component={Cancel} />
           <Route exact path='/success' component={Success} />
           <Route exact path='/shop' component={Shop} />
-          <Route exact path='/contact' component={Contact} />
+          <PrivateRoute exact path='/contact' component={ContactUs} />
         </Switch>
       </Layout>
     </Router>
